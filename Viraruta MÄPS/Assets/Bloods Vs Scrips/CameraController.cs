@@ -6,17 +6,17 @@ public class CameraController : MonoBehaviour
 {
 
     public float CameraDistance;
-    private Vector3 PlayerPosition;
+    private Player Player;
 
     // Start is called before the first frame update
     void Start()
     {
-        PlayerPosition = new Vector3(FindObjectOfType<Player>().transform.position.x, FindObjectOfType<Player>().transform.position.y, FindObjectOfType<Player>().transform.position.z);
+        Player = FindObjectOfType<Player>();
     }
 
     // Update is called once per frame
     void Update()
     {
-    mainCamera.transform.position = new Vector3(myRigidbody.transform.position.x, 10f, myRigidbody.transform.position.z);
+    mainCamera.transform.position = new Vector3(Player.transform.position.x, 10f, Player.transform.position.z);
     }
 }
