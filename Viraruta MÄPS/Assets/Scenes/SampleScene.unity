@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.007450471, g: 0.033188663, b: 0.11405533, a: 1}
+  m_IndirectSpecularColor: {r: 0.011143217, g: 0.033188928, b: 0.11403551, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1445,6 +1445,7 @@ GameObject:
   - component: {fileID: 1557451220}
   - component: {fileID: 1557451222}
   - component: {fileID: 1557451221}
+  - component: {fileID: 1557451223}
   m_Layer: 5
   m_Name: ACTUAL OBJECTIVE
   m_TagString: Untagged
@@ -1568,6 +1569,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1557451219}
   m_CullTransparentMesh: 1
+--- !u!114 &1557451223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557451219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 503fbc095a1de7643a5d90512fd72e56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Objective: {fileID: 1557451221}
+  ActualObjective: KILL THEM ALL
 --- !u!4 &1621129957 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4606558735370232, guid: 30abec6967bed2a4d914d2897d811421, type: 3}
