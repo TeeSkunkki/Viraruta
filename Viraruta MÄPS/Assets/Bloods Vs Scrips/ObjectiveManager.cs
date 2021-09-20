@@ -28,11 +28,12 @@ public class ObjectiveManager : MonoBehaviour
     }
 
         IEnumerator ObjectiveScramble(){
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(5);
             Scrambling();
         }
 
     void Scrambling(){
+        Objective.color = new Color(255, 0, 0, 255);
         if(ActualObjective != TempObjective2){
             while(ObjectiveLength > TempObjective1.Length + ScrambleLength){
                 ScrambleNumber = Random.Range(0, 55);
