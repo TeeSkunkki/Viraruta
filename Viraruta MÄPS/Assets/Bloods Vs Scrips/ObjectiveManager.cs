@@ -13,7 +13,6 @@ public class ObjectiveManager : MonoBehaviour
     private float ObjectiveLength;
     private float ScrambleLength;
     private int ScrambleNumber;
-    private int ObjectiveNumber;
 
     // Start is called before the first frame update
     void Start(){
@@ -47,7 +46,6 @@ public class ObjectiveManager : MonoBehaviour
             TempObjective1 = "";
             TempObjective1 = TempObjective2;
             ScrambleLength = 0;
-            ObjectiveNumber = 0;
         }
     }
 }

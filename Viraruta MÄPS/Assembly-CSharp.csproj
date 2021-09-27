@@ -71,6 +71,7 @@
      <Compile Include="Assets\CyberCity\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
      <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\WFX_Demo.cs" />
      <Compile Include="Assets\CyberCity\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
+     <Compile Include="Assets\Bloods Vs Scrips\SaveManager.cs" />
      <Compile Include="Assets\JMO Assets\WarFX\Scripts\WFX_LightFlicker.cs" />
      <Compile Include="Assets\Bloods Vs Scrips\ObjectiveManager.cs" />
      <Compile Include="Assets\CyberCity\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
