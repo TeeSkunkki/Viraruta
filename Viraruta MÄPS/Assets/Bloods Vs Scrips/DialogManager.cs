@@ -35,7 +35,7 @@ public class DialogManager : MonoBehaviour
         for(int i = 0; i <= DialogAll.Length; i++)
         {
             if(DialogAll[i].ToString() == "<"){
-                Dia
+                
             }
         }
         reader.Close();

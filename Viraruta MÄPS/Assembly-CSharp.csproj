@@ -104,6 +104,7 @@
      <Compile Include="Assets\CyberCity\Script\CCTvMovie.cs" />
      <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\CFX_Demo_Translate.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+     <Compile Include="Assets\Bloods Vs Scrips\DialogManager.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
      <Compile Include="Assets\Bloods Vs Scrips\GunController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
@@ -199,6 +200,7 @@
      <None Include="Assets\CyberCity\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\CyberCity\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
+     <None Include="Assets\Dialog.txt" />
      <None Include="Assets\CyberCity\PostProcessing\Resources\Shaders\Fog.shader" />
      <None Include="Assets\CyberCity\Shader\CCSprite.shader" />
      <None Include="Assets\CyberCity\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
