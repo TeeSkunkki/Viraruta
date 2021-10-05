@@ -9,35 +9,59 @@ public class DialogManager : MonoBehaviour
 {
     public TextMeshProUGUI DialogText;
     public TextMeshProUGUI DialogChar;
-    private string PlayerName = "SHELL";
-    private string Path = "Assets/Dialog.txt";
+    private string DialogAll;
+    private string DialogTextTemp = "";
+    private string DialogCharTemp = "";
+    private int check = 0;
+    private int nextline = 0;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
+    public void DialogLine(string Path)
     {
         
-    }
-
-    [MenuItem("Tools/Read file")]
-    static void ReadString()
-    {
-        string Path = "Assets/Dialog.txt";
-        string DialogAll;
-        //Read the text from directly from the test.txt file
+        //Read the text from directly from the .txt file
         StreamReader reader = new StreamReader(Path);
         DialogAll = reader.ReadToEnd().ToString();
-        for(int i = 0; i <= DialogAll.Length; i++)
+        for(int i = 0; i < DialogAll.Length; i++)
         {
+            if(Input.GetKeyDown("space")){
+                nextline = 0;
+            }else{i--;}
+
+            if(check == 0 && nextline == 0){
             if(DialogAll[i].ToString() == "<"){
-                Dia
+                Char(i);
+            }else if(DialogAll[i].ToString() == ">"){
+                Text(i);
+            }
             }
         }
         reader.Close();
+    }
+
+    private void Char(int i){
+        //Editing character namebox
+                int u = i + 1;
+                while(DialogAll[u].ToString() != ">"){
+                    DialogCharTemp += DialogAll[u].ToString();
+                    u++;
+                }
+                DialogChar.text = DialogCharTemp;
+                DialogCharTemp = "";
+    }
+
+    private void Text(int i){
+        //Editing textbox
+                int u = i;
+                while(DialogAll[u].ToString() != "<"){
+                    DialogTextTemp += DialogAll[u].ToString();
+                    u++;
+                    if(u == DialogAll.Length){
+                        check = 1;
+                        break;
+                    }
+                }
+                nextline = 1;
+                DialogText.text = DialogTextTemp;
+                DialogTextTemp = "";
     }
 }
