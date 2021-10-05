@@ -10,10 +10,10 @@ public class SaveManager : MonoBehaviour
 
     public Button SaveButton;
     public Button LoadButton;
-    private string jsonSavePath;
+    private string SavePath;
 
 void Start(){
-    jsonSavePath = Application.persistentDataPath + "/Save.json";
+    SavePath = Application.persistentDataPath + "/Save.json";
 }
 
     void OnEnable(){
