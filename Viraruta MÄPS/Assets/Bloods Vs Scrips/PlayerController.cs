@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     private GameObject resetbutton;
 
     public float moveSpeed;
+    public float CanMove;
     private Rigidbody myRigidbody;
     public Rigidbody PlayerRigidbody;
 
@@ -41,7 +42,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
       moveInput = new Vector3(Input.GetAxisRaw("Horizontal"), 0f, Input.GetAxisRaw("Vertical"));
-      moveVelocity = moveInput * moveSpeed;
+      moveVelocity = moveInput * moveSpeed * CanMove;
      
 
       Ray cameraRay = mainCamera.ScreenPointToRay(Input.mousePosition);
