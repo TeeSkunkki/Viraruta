@@ -15,6 +15,10 @@ public class DialogManager : MonoBehaviour
     private int check = 0;
     private int nextline = 0;
 
+    void Awake(){
+        DialogLine("Assets/Dialog/Dialog.txt");
+    }
+
     public void DialogLine(string Path)
     {
         
@@ -24,9 +28,11 @@ public class DialogManager : MonoBehaviour
         for(int i = 0; i < DialogAll.Length; i++)
         {
             if(Input.GetKeyDown("space")){
+                Debug.Log(nextline);
                 nextline = 0;
-            }else{i--;}
-
+                Debug.Log(nextline);
+            }
+            Debug.Log("Waiting " + i);
             if(check == 0 && nextline == 0){
             if(DialogAll[i].ToString() == "<"){
                 Char(i);

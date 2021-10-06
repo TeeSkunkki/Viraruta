@@ -211,7 +211,7 @@
      <None Include="Assets\CyberCity\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\CyberCity\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
-     <None Include="Assets\Dialog.txt" />
+     <None Include="Assets\Dialog\Dialog.txt" />
      <None Include="Assets\CyberCity\PostProcessing\Resources\Shaders\Fog.shader" />
      <None Include="Assets\CyberCity\Shader\CCSprite.shader" />
      <None Include="Assets\CyberCity\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
