@@ -15,11 +15,11 @@ C:/Users/s1900957/Documents/GitHub/Viraruta/Viraruta MÄPS
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59095
+54710
 Successfully changed project path to: C:/Users/s1900957/Documents/GitHub/Viraruta/Viraruta MÄPS
 C:/Users/s1900957/Documents/GitHub/Viraruta/Viraruta MÄPS
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 83.31 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 122.64 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.16f1 (049d6eca3c44)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -37,91 +37,91 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56944
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005671 seconds.
+Registered in 0.007471 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 78.83 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 130.18 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.109 seconds
+- Completed reload, in  3.204 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2109ms)
-		BeginReloadAssembly (117ms)
+	ReloadAssembly (3205ms)
+		BeginReloadAssembly (138ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (760ms)
-			LoadAssemblies (112ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1097ms)
+			LoadAssemblies (132ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (271ms)
+			SetupTypeCache (354ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (306ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (491ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (79ms)
-				BeforeProcessingInitializeOnLoad (25ms)
-				ProcessInitializeOnLoadAttributes (142ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (130ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (242ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008036 seconds.
+Registered in 0.009210 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 3.26 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.955 seconds
+- Completed reload, in  3.129 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1957ms)
-		BeginReloadAssembly (289ms)
+	ReloadAssembly (3134ms)
+		BeginReloadAssembly (493ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
+			DisableScriptedObjects (24ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (1542ms)
-			LoadAssemblies (168ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (2454ms)
+			LoadAssemblies (248ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (570ms)
+			SetupTypeCache (884ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (73ms)
-			SetupLoadedEditorAssemblies (562ms)
+			RebuildScriptCaches (103ms)
+			SetupLoadedEditorAssemblies (985ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (157ms)
-				ProcessInitializeOnLoadAttributes (368ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (18ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (247ms)
+				ProcessInitializeOnLoadAttributes (670ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (27ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.19 seconds
+Refreshing native plugins compatible for Editor in 1.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1590 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 81.6 MB.
-System memory in use after: 81.6 MB.
+System memory in use before: 81.7 MB.
+System memory in use after: 81.8 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2033.
-Total: 5.107500 ms (FindLiveObjects: 0.274100 ms CreateObjectMapping: 0.069300 ms MarkObjects: 4.632600 ms  DeleteObjects: 0.128600 ms)
+Total: 7.629800 ms (FindLiveObjects: 0.506500 ms CreateObjectMapping: 0.079000 ms MarkObjects: 6.820500 ms  DeleteObjects: 0.219100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,307 +135,233 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/CyberCity/Prefab/street/cable/cable h.prefab
-  artifactKey: Guid(648b4279f505f5746a5509b086899180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CyberCity/Prefab/street/cable/cable h.prefab using Guid(648b4279f505f5746a5509b086899180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e25e1e30281ce0733bc56079baaf5e') in 0.224349 seconds 
-  Import took 0.230169 seconds .
+  path: Assets/Prefabit/ATV_hxpf.fbx
+  artifactKey: Guid(b6eefcd196ce23e45aea72fdfd87d62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabit/ATV_hxpf.fbx using Guid(b6eefcd196ce23e45aea72fdfd87d62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7687a0a102752c32e8a52fe9fae1dda7') in 1.511182 seconds 
+  Import took 1.520698 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/CyberCity/Prefab/street/cable/cable hldr.prefab
-  artifactKey: Guid(8372c88d87b23e449bb38b0120137ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CyberCity/Prefab/street/cable/cable hldr.prefab using Guid(8372c88d87b23e449bb38b0120137ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774a8bb532ce4409346aa17fb285c7f5') in 0.053099 seconds 
-  Import took 0.058272 seconds .
+  Time since last request: 45.289785 seconds.
+  path: Assets/Prefabit/Matin Textures
+  artifactKey: Guid(12e2383580be1204892a9c57e4c52ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabit/Matin Textures using Guid(12e2383580be1204892a9c57e4c52ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded4675d8043be33cd06f149403fa3bb') in 0.040296 seconds 
+  Import took 0.057515 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000398 seconds.
-  path: Assets/CyberCity/Prefab/street/pipe/pipe valve.prefab
-  artifactKey: Guid(f715e1d77e9c47f4894d11f289274df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CyberCity/Prefab/street/pipe/pipe valve.prefab using Guid(f715e1d77e9c47f4894d11f289274df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf33e7fba5906a242aed074ce3577ab') in 0.056136 seconds 
-  Import took 0.060626 seconds .
+  Time since last request: 15.392970 seconds.
+  path: Assets/Prefabit/Matin Textures/ATV_hxpf_Albedo2.png
+  artifactKey: Guid(25682383da9de344389f1edc6ebc6e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabit/Matin Textures/ATV_hxpf_Albedo2.png using Guid(25682383da9de344389f1edc6ebc6e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc69803d3723ec8b53eea27a6f2e92d2') in 0.092093 seconds 
+  Import took 0.098653 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/CyberCity/Prefab/street/cable/cable power box.prefab
-  artifactKey: Guid(cecf69cfc2b37704e93b800b439d3b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CyberCity/Prefab/street/cable/cable power box.prefab using Guid(cecf69cfc2b37704e93b800b439d3b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1887544883eafab9d1bb66ac76d81203') in 0.041151 seconds 
-  Import took 0.045806 seconds .
+  Time since last request: 0.000502 seconds.
+  path: Assets/Prefabit/Matin Textures/ATV_hxpf_Metalness.png
+  artifactKey: Guid(8d9d31975eab68b498a47b50ded62abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabit/Matin Textures/ATV_hxpf_Metalness.png using Guid(8d9d31975eab68b498a47b50ded62abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e486888439caa16cd65e519bcb6e531') in 0.042610 seconds 
+  Import took 0.049129 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/CyberCity/Prefab/street/pipe
-  artifactKey: Guid(649d18b362337104999c41cbf36de330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CyberCity/Prefab/street/pipe using Guid(649d18b362337104999c41cbf36de330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162209e12e2429e097dce3eea3eb548b') in 0.014401 seconds 
-  Import took 0.018674 seconds .
+  Time since last request: 0.000768 seconds.
+  path: Assets/Prefabit/Matin Textures/ATV_hxpf_Normal.png
+  artifactKey: Guid(435b2ca46a7e2304cae815339a2f58fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabit/Matin Textures/ATV_hxpf_Normal.png using Guid(435b2ca46a7e2304cae815339a2f58fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c1ab1e004446a2ed29a1c8d3446d5eb') in 0.051631 seconds 
+  Import took 0.059506 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/CyberCity/Prefab/street/cable/cable to side 1.prefab
-  artifactKey: Guid(6e871590c0596a24db01924538f1a296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CyberCity/Prefab/street/cable/cable to side 1.prefab using Guid(6e871590c0596a24db01924538f1a296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36948cc0691ccf28f4bf814fc044b6d6') in 0.067660 seconds 
-  Import took 0.072946 seconds .
+  Time since last request: 0.000629 seconds.
+  path: Assets/Prefabit/Matin Textures/ATV_hxpf_AO.png
+  artifactKey: Guid(6dc0ebe25b7dbef4d82f508d0a1c5270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabit/Matin Textures/ATV_hxpf_AO.png using Guid(6dc0ebe25b7dbef4d82f508d0a1c5270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcfe1b3d37fde5dc56187886b9302141') in 0.063375 seconds 
+  Import took 0.071995 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/CyberCity/Prefab/street/pipe/pipe.prefab
-  artifactKey: Guid(c4a072cc61459504787bab0c05fdbc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CyberCity/Prefab/street/pipe/pipe.prefab using Guid(c4a072cc61459504787bab0c05fdbc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb2296e7575bb79091b6132c8569ea5') in 0.034436 seconds 
-  Import took 0.039144 seconds .
+  Time since last request: 0.000798 seconds.
+  path: Assets/Prefabit/Matin Textures/ATV_hxpf_Roughness.png
+  artifactKey: Guid(c6b70d9bf76550346bd4e20afdcf1ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabit/Matin Textures/ATV_hxpf_Roughness.png using Guid(c6b70d9bf76550346bd4e20afdcf1ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7641263ebf69f2f4bb98c2c415574a6b') in 0.050725 seconds 
+  Import took 0.060986 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/CyberCity/Prefab/street/cable/cable mix G.prefab
-  artifactKey: Guid(7010e31a3b77a5442bb4125351821171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CyberCity/Prefab/street/cable/cable mix G.prefab using Guid(7010e31a3b77a5442bb4125351821171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7c6d0612e5f1e11f73cf577f26eac3') in 0.057355 seconds 
-  Import took 0.062917 seconds .
+  Time since last request: 33.337558 seconds.
+  path: Assets/Prefabit/Writhing In Pain.fbm
+  artifactKey: Guid(e7edd0f9b779e0648b08febc558b6950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabit/Writhing In Pain.fbm using Guid(e7edd0f9b779e0648b08febc558b6950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171da3224b9323b4a469b665b11b3380') in 0.028858 seconds 
+  Import took 0.035589 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/CyberCity/Prefab/street/cable/cable vert.prefab
-  artifactKey: Guid(a06a66c27b5c12147a720d5d58903508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CyberCity/Prefab/street/cable/cable vert.prefab using Guid(a06a66c27b5c12147a720d5d58903508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '181871ab911fa28443dfd55d4aa2e6cf') in 0.058331 seconds 
-  Import took 0.064347 seconds .
+  Time since last request: 0.016688 seconds.
+  path: Assets/Prefabit/Writhing In Pain.fbm
+  artifactKey: Guid(e7edd0f9b779e0648b08febc558b6950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabit/Writhing In Pain.fbm using Guid(e7edd0f9b779e0648b08febc558b6950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171da3224b9323b4a469b665b11b3380') in 0.006601 seconds 
+  Import took 0.012740 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/CyberCity/Prefab/street/cable/cable h v.prefab
-  artifactKey: Guid(129fefc856fecd74fa549257d1019e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CyberCity/Prefab/street/cable/cable h v.prefab using Guid(129fefc856fecd74fa549257d1019e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a2ad6ae4a38b9f48aec8ba577e15af8') in 0.044004 seconds 
-  Import took 0.048604 seconds .
+  Time since last request: 66.245814 seconds.
+  path: Assets/Blood decal pack
+  artifactKey: Guid(3c9c12f2359f4ac45b5962ef1274b435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blood decal pack using Guid(3c9c12f2359f4ac45b5962ef1274b435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670317aad717ce58afbcdf2db79b7bfe') in 0.022778 seconds 
+  Import took 0.029014 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/CyberCity/Prefab/street/cable/cable mix C.prefab
-  artifactKey: Guid(c6fd23ad7e748d04387d108fed92fa6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CyberCity/Prefab/street/cable/cable mix C.prefab using Guid(c6fd23ad7e748d04387d108fed92fa6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee03df27169cfc29906df33ec4f63441') in 0.054774 seconds 
-  Import took 0.061677 seconds .
+  Time since last request: 0.014625 seconds.
+  path: Assets/Blood decal pack
+  artifactKey: Guid(3c9c12f2359f4ac45b5962ef1274b435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blood decal pack using Guid(3c9c12f2359f4ac45b5962ef1274b435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670317aad717ce58afbcdf2db79b7bfe') in 0.006488 seconds 
+  Import took 0.012359 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/CyberCity/Prefab/street/cable/cable mix F.prefab
-  artifactKey: Guid(84dafdf36fb4cd2458bbb4d199f057ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CyberCity/Prefab/street/cable/cable mix F.prefab using Guid(84dafdf36fb4cd2458bbb4d199f057ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582bdaf9a8cd40161fd0c8bf4894c9e8') in 0.053963 seconds 
-  Import took 0.060118 seconds .
+  Time since last request: 6.849028 seconds.
+  path: Assets/Prefabit/Materials
+  artifactKey: Guid(2c94e2163c5c16545ae20484629ad055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabit/Materials using Guid(2c94e2163c5c16545ae20484629ad055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d6648ce5ddb950253de73c8f780c05') in 0.027117 seconds 
+  Import took 0.034408 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/CyberCity/Prefab/street/pipe/pipe corn bg 2.prefab
-  artifactKey: Guid(a618b3fca0c9cf740b414a43a5d84c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CyberCity/Prefab/street/pipe/pipe corn bg 2.prefab using Guid(a618b3fca0c9cf740b414a43a5d84c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d34891da54d7ab1773dfabdbd3cd489') in 0.061288 seconds 
-  Import took 0.066962 seconds .
+  Time since last request: 88.420978 seconds.
+  path: Assets/Prefabit/Matin Textures/Materials
+  artifactKey: Guid(9b85f7609377c1948ae5eb6c738ed0a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabit/Matin Textures/Materials using Guid(9b85f7609377c1948ae5eb6c738ed0a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa92dea2ea3708ed1d37259d1b9d780') in 0.014737 seconds 
+  Import took 0.030782 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000400 seconds.
-  path: Assets/CyberCity/Prefab/street/pipe/pipe sm half.prefab
-  artifactKey: Guid(af5fedef75bf04645a7b067f07a15ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CyberCity/Prefab/street/pipe/pipe sm half.prefab using Guid(af5fedef75bf04645a7b067f07a15ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003e6673229f27a70bef55d7d7932999') in 0.045295 seconds 
-  Import took 0.050015 seconds .
+  Time since last request: 0.036982 seconds.
+  path: Assets/Prefabit/Matin Textures/Materials/ATV_hxpf_Albedo2.mat
+  artifactKey: Guid(1563d2a6884851a4292b1b659b8a1082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabit/Matin Textures/Materials/ATV_hxpf_Albedo2.mat using Guid(1563d2a6884851a4292b1b659b8a1082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0addf6aaf93015583f449ade9c98db39') in 0.134729 seconds 
+  Import took 0.141729 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Assets/CyberCity/Prefab/street/pipe/air pipe.prefab
-  artifactKey: Guid(35ab789303f5b1b41b46adb1cf54a320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CyberCity/Prefab/street/pipe/air pipe.prefab using Guid(35ab789303f5b1b41b46adb1cf54a320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1684cfbc10fdd5bb7ffdb697780ff19a') in 0.044485 seconds 
-  Import took 0.049150 seconds .
+  Time since last request: 0.000580 seconds.
+  path: Assets/Prefabit/Matin Textures/Materials/ATV_hxpf_Normal.mat
+  artifactKey: Guid(1662f8629cdf01144b868b4f429b896c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabit/Matin Textures/Materials/ATV_hxpf_Normal.mat using Guid(1662f8629cdf01144b868b4f429b896c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17cfd709735ddf9f983b7bb45549053') in 0.035288 seconds 
+  Import took 0.044248 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/CyberCity/Prefab/street/pipe/pipe half.prefab
-  artifactKey: Guid(5852b4b818b5c65489c49fe1d7000022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CyberCity/Prefab/street/pipe/pipe half.prefab using Guid(5852b4b818b5c65489c49fe1d7000022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f65cbec26320ecd8c8fe5b2eb1b387d') in 0.039653 seconds 
-  Import took 0.044324 seconds .
+  Time since last request: 463.082911 seconds.
+  path: Assets/Prefabit/Writhing In Pain.fbm/Ch15_1001_Diffuse.png
+  artifactKey: Guid(3c959757261ce7243866138aa546e4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabit/Writhing In Pain.fbm/Ch15_1001_Diffuse.png using Guid(3c959757261ce7243866138aa546e4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed8b4aec96d3d53dc391eec53e5ee15') in 0.039094 seconds 
+  Import took 0.046434 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/CyberCity/Prefab/street/pipe/air pipe corn.prefab
-  artifactKey: Guid(2a7f952e84a03114aa36f9d0b7b2758a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CyberCity/Prefab/street/pipe/air pipe corn.prefab using Guid(2a7f952e84a03114aa36f9d0b7b2758a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7691d5b114b31e478d1bdc2fecba1af8') in 0.042779 seconds 
-  Import took 0.047621 seconds .
+  Time since last request: 0.000552 seconds.
+  path: Assets/Prefabit/Writhing In Pain.fbm/Ch15_1001_Normal.png
+  artifactKey: Guid(2371c516ca5c865469add6e0453ab8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabit/Writhing In Pain.fbm/Ch15_1001_Normal.png using Guid(2371c516ca5c865469add6e0453ab8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fddc85f552df37bb0a0068eb0fcf2bf') in 0.064487 seconds 
+  Import took 0.070721 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/CyberCity/Prefab/street/cable/cable mix D.prefab
-  artifactKey: Guid(dcbca0a3b8acc6140941bc0dd6b80ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CyberCity/Prefab/street/cable/cable mix D.prefab using Guid(dcbca0a3b8acc6140941bc0dd6b80ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48496bb5ffe14128b6946605be00d537') in 0.054104 seconds 
-  Import took 0.059530 seconds .
+  Time since last request: 0.000993 seconds.
+  path: Assets/Prefabit/Writhing In Pain.fbm/Ch15_1002_Normal.png
+  artifactKey: Guid(ce067b77a242ac748bdd32523388e183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabit/Writhing In Pain.fbm/Ch15_1002_Normal.png using Guid(ce067b77a242ac748bdd32523388e183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64718c830e63ac611a5553652e9ac52') in 0.040717 seconds 
+  Import took 0.047702 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/CyberCity/Prefab/street/pipe/pipe corn sm 2.prefab
-  artifactKey: Guid(748aae18d983469438556da1557bf4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CyberCity/Prefab/street/pipe/pipe corn sm 2.prefab using Guid(748aae18d983469438556da1557bf4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45295465eb9ecc0732de6f74cd42acd1') in 0.041191 seconds 
-  Import took 0.045479 seconds .
+  Time since last request: 0.000541 seconds.
+  path: Assets/Prefabit/Writhing In Pain.fbm/Ch15_1001_Glossiness.png
+  artifactKey: Guid(ef5c50f8b5522294b873badfca339918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabit/Writhing In Pain.fbm/Ch15_1001_Glossiness.png using Guid(ef5c50f8b5522294b873badfca339918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b75d7c1add3001e2cfadc7e56fccb95a') in 0.072205 seconds 
+  Import took 0.079128 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000343 seconds.
-  path: Assets/CyberCity/Prefab/street/cable/cable mix E.prefab
-  artifactKey: Guid(1adf97bc62cfb584ebb941656fd5ff89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CyberCity/Prefab/street/cable/cable mix E.prefab using Guid(1adf97bc62cfb584ebb941656fd5ff89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7464cc9def077049000c3d2b2e1540') in 0.057465 seconds 
-  Import took 0.063758 seconds .
+  Time since last request: 0.000767 seconds.
+  path: Assets/Prefabit/Writhing In Pain.fbm/Ch15_1002_Emissive.png
+  artifactKey: Guid(7218dfe28bb9c6c438fc394ef80c0065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabit/Writhing In Pain.fbm/Ch15_1002_Emissive.png using Guid(7218dfe28bb9c6c438fc394ef80c0065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8cb73688c73acae555f1276ed7078f4') in 0.051463 seconds 
+  Import took 0.060110 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/CyberCity/Prefab/street/cable/cable mix B.prefab
-  artifactKey: Guid(97e308655398b334cb4ae465ccb5bc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CyberCity/Prefab/street/cable/cable mix B.prefab using Guid(97e308655398b334cb4ae465ccb5bc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933c089660294048bc103209c686a834') in 0.063712 seconds 
-  Import took 0.069810 seconds .
+  Time since last request: 0.000833 seconds.
+  path: Assets/Prefabit/Writhing In Pain.fbm/Ch15_1002_Diffuse.png
+  artifactKey: Guid(3e578b823a906a94a98e41e0bf9234d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabit/Writhing In Pain.fbm/Ch15_1002_Diffuse.png using Guid(3e578b823a906a94a98e41e0bf9234d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d61420ccef78127814f421e11cebdb5') in 0.046228 seconds 
+  Import took 0.054618 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/CyberCity/Prefab/street/pipe/pipe hldr.prefab
-  artifactKey: Guid(67f2e500dea8ec4418d82965b76e3384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CyberCity/Prefab/street/pipe/pipe hldr.prefab using Guid(67f2e500dea8ec4418d82965b76e3384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd744928dd78f91d1353224c0dc7af7f') in 0.047356 seconds 
-  Import took 0.052038 seconds .
+  Time since last request: 0.000602 seconds.
+  path: Assets/Prefabit/Writhing In Pain.fbm/Ch15_1001_Specular.png
+  artifactKey: Guid(f0d19d606258ad64cae6fc1431669ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabit/Writhing In Pain.fbm/Ch15_1001_Specular.png using Guid(f0d19d606258ad64cae6fc1431669ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0e9d2db6003c2d745cc0fde04f0826') in 0.058552 seconds 
+  Import took 0.067660 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/CyberCity/Prefab/street/pipe/pipe hldr prt.prefab
-  artifactKey: Guid(37fa85432f8c0374993957f7b3fcb175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CyberCity/Prefab/street/pipe/pipe hldr prt.prefab using Guid(37fa85432f8c0374993957f7b3fcb175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83bcdcc9a5d6fb287687fda7266e0a8') in 0.043367 seconds 
-  Import took 0.048153 seconds .
+  Time since last request: 0.000599 seconds.
+  path: Assets/Prefabit/Writhing In Pain.fbm/Ch15_1002_Glossiness.png
+  artifactKey: Guid(29760c1e7f1364343a0c6a81975e6171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabit/Writhing In Pain.fbm/Ch15_1002_Glossiness.png using Guid(29760c1e7f1364343a0c6a81975e6171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32db7840c2856e1cc3f167d6a7667a71') in 0.060289 seconds 
+  Import took 0.067219 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000376 seconds.
-  path: Assets/CyberCity/Prefab/street/pipe/pipe corn bg.prefab
-  artifactKey: Guid(1d68e746f4767c048b3e663b961761f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CyberCity/Prefab/street/pipe/pipe corn bg.prefab using Guid(1d68e746f4767c048b3e663b961761f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e4b66d5a880b6b0b9afa224450b298') in 0.054441 seconds 
-  Import took 0.059845 seconds .
+  Time since last request: 0.000594 seconds.
+  path: Assets/Prefabit/Writhing In Pain.fbm/Ch15_1002_Specular.png
+  artifactKey: Guid(2e2c35c7f3daf0f44ae043865042bf42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabit/Writhing In Pain.fbm/Ch15_1002_Specular.png using Guid(2e2c35c7f3daf0f44ae043865042bf42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a38340dc263cda0fb70360d661e413') in 0.067069 seconds 
+  Import took 0.073583 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/CyberCity/Prefab/street/pipe/pipe partit.prefab
-  artifactKey: Guid(d80b26d47da6cea4b8e8f9885da5658f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CyberCity/Prefab/street/pipe/pipe partit.prefab using Guid(d80b26d47da6cea4b8e8f9885da5658f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b270fc076a1db095cfd22ca0154ac70') in 0.046710 seconds 
-  Import took 0.051524 seconds .
+  Time since last request: 0.000715 seconds.
+  path: Assets/Prefabit/Writhing In Pain.fbm/Ch15_1002_Glossiness.png
+  artifactKey: Guid(29760c1e7f1364343a0c6a81975e6171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabit/Writhing In Pain.fbm/Ch15_1002_Glossiness.png using Guid(29760c1e7f1364343a0c6a81975e6171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32db7840c2856e1cc3f167d6a7667a71') in 0.021526 seconds 
+  Import took 0.027080 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/CyberCity/Prefab/street/cable/cable to side 2.prefab
-  artifactKey: Guid(e46bcfadcc9ef344f9c0acf6c504afbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CyberCity/Prefab/street/cable/cable to side 2.prefab using Guid(e46bcfadcc9ef344f9c0acf6c504afbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2db434011f9194d4475bef3586d34b3') in 0.057045 seconds 
-  Import took 0.062866 seconds .
+  Time since last request: 0.000495 seconds.
+  path: Assets/Prefabit/Writhing In Pain.fbm/Ch15_1002_Specular.png
+  artifactKey: Guid(2e2c35c7f3daf0f44ae043865042bf42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabit/Writhing In Pain.fbm/Ch15_1002_Specular.png using Guid(2e2c35c7f3daf0f44ae043865042bf42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a38340dc263cda0fb70360d661e413') in 0.027102 seconds 
+  Import took 0.036584 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/CyberCity/Prefab/street/cable/cable.prefab
-  artifactKey: Guid(c2d341cdfce7c124ca56fc2bf4c7e2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CyberCity/Prefab/street/cable/cable.prefab using Guid(c2d341cdfce7c124ca56fc2bf4c7e2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56fc40606fbee54d319951e7d73fa29d') in 0.056357 seconds 
-  Import took 0.062491 seconds .
+  Time since last request: 24.914510 seconds.
+  path: Assets/Prefabit/Matin Textures/Materials/Vittuuuu.mat
+  artifactKey: Guid(87827dea42fd4b24b9bdf930495dbb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabit/Matin Textures/Materials/Vittuuuu.mat using Guid(87827dea42fd4b24b9bdf930495dbb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4bac19cd9c2c24a3c7cae3eee4e0520') in 0.048968 seconds 
+  Import took 0.057090 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/CyberCity/Prefab/street/cable
-  artifactKey: Guid(6f69a2f1e9bd97d4a93b5caa3c541bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CyberCity/Prefab/street/cable using Guid(6f69a2f1e9bd97d4a93b5caa3c541bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86134b299eaaca1311577ade37d5b03f') in 0.004098 seconds 
-  Import took 0.008669 seconds .
+  Time since last request: 7.640317 seconds.
+  path: Assets/Mats/Materials/44_hexagonal brown marble tile texture-seamless.jpg
+  artifactKey: Guid(f4de266897c97ab44bc84f35f042fc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mats/Materials/44_hexagonal brown marble tile texture-seamless.jpg using Guid(f4de266897c97ab44bc84f35f042fc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c281855c1aa88f95bccffbc734b681') in 0.029648 seconds 
+  Import took 0.036917 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000443 seconds.
-  path: Assets/CyberCity/Prefab/street/pipe/pipe corn sm.prefab
-  artifactKey: Guid(3bcf0a9232920ac4f979e41d73570f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CyberCity/Prefab/street/pipe/pipe corn sm.prefab using Guid(3bcf0a9232920ac4f979e41d73570f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '938169abfa4f08176d536516073424fa') in 0.038013 seconds 
-  Import took 0.043490 seconds .
+  Time since last request: 17514.820728 seconds.
+  path: Assets/Prefabit/Matin Textures/Materials/Vittuuuu.mat
+  artifactKey: Guid(87827dea42fd4b24b9bdf930495dbb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabit/Matin Textures/Materials/Vittuuuu.mat using Guid(87827dea42fd4b24b9bdf930495dbb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dba75c479692704344ddc18f4a69a23') in 0.232556 seconds 
+  Import took 0.298894 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000409 seconds.
-  path: Assets/CyberCity/Prefab/street/pipe/pipe sm.prefab
-  artifactKey: Guid(d9c61415bdbbdfc4c8b9ce6a8ed04b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CyberCity/Prefab/street/pipe/pipe sm.prefab using Guid(d9c61415bdbbdfc4c8b9ce6a8ed04b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71345d69b6f416a6f643acd5dd24e494') in 0.039729 seconds 
-  Import took 0.045562 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/CyberCity/Prefab/street/cable/cable mix.prefab
-  artifactKey: Guid(4f6fd1e91812ee0479c247d9f98eb597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CyberCity/Prefab/street/cable/cable mix.prefab using Guid(4f6fd1e91812ee0479c247d9f98eb597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ac9f8a6535301409e0c21b285ebda7') in 0.067817 seconds 
-  Import took 0.074068 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008234 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.845 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1846ms)
-		BeginReloadAssembly (249ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (69ms)
-		EndReloadAssembly (1460ms)
-			LoadAssemblies (192ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (524ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (526ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (145ms)
-				ProcessInitializeOnLoadAttributes (342ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (19ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1536 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 79.7 MB.
-System memory in use after: 79.9 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2042.
-Total: 4.661600 ms (FindLiveObjects: 0.234400 ms CreateObjectMapping: 0.043100 ms MarkObjects: 4.351700 ms  DeleteObjects: 0.030000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
