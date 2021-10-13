@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     private GameObject resetbutton;
 
     public float moveSpeed;
-    public float CanMove;
+    public float CanMove = 1.0f;
     private Rigidbody myRigidbody;
     public Rigidbody PlayerRigidbody;
 
@@ -95,12 +95,12 @@ public class PlayerController : MonoBehaviour
       myRigidbody.velocity = moveVelocity;
     }
 
-    private void OnTriggerEnter(Collider collider){
+    /*private void OnTriggerEnter(Collider collider){
       if(collider.CompareTag("vihollinen")){
         //Kuolema.transform.position = new Vector3(0,0,0);
         Kuolema.SetActive(true);
         resetbutton.SetActive(true);
         this.gameObject.SetActive(false);
       }
-    }
+    }*/
 }

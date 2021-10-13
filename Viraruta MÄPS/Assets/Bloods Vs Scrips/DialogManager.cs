@@ -7,67 +7,69 @@ using TMPro;
 
 public class DialogManager : MonoBehaviour
 {
-    public TextMeshProUGUI DialogText;
-    public TextMeshProUGUI DialogChar;
-    private string DialogAll;
-    private string DialogTextTemp = "";
-    private string DialogCharTemp = "";
-    private int check = 0;
-    private int nextline = 0;
-
-    void Awake(){
-        DialogLine("Assets/Dialog/Dialog.txt");
+    public static DialogManager instance;
+    public PlayerController PlayerController;
+    public GameObject dialogBox;
+    public GameObject nameBox;
+    public TextMeshProUGUI dialogText;
+    public TextMeshProUGUI nameText;
+    public float typingSpeed = 0.05f;
+    private string[] dialogLines;
+    private int currentLine = 0;
+    private bool justStarted;
+    private bool isCoroutingRunning;
+    void Start()
+    {
+        if (instance == null){
+            instance = this;
+        }
     }
 
-    public void DialogLine(string Path)
+    // Update is called once per frame
+    void Update()
     {
-        
-        //Read the text from directly from the .txt file
-        StreamReader reader = new StreamReader(Path);
-        DialogAll = reader.ReadToEnd().ToString();
-        for(int i = 0; i < DialogAll.Length; i++)
-        {
-            if(Input.GetKeyDown("space")){
-                Debug.Log(nextline);
-                nextline = 0;
-                Debug.Log(nextline);
-            }
-            Debug.Log("Waiting " + i);
-            if(check == 0 && nextline == 0){
-            if(DialogAll[i].ToString() == "<"){
-                Char(i);
-            }else if(DialogAll[i].ToString() == ">"){
-                Text(i);
-            }
+        if (Input.GetKeyDown("space") && !isCoroutingRunning && justStarted){
+            currentLine++;
+            if (currentLine >= dialogLines.Length){
+                StopDialog();
+            } else {
+                CheckIfName();
+                StartCoroutine(AutoType(dialogLines, currentLine));
             }
         }
-        reader.Close();
     }
 
-    private void Char(int i){
-        //Editing character namebox
-                int u = i + 1;
-                while(DialogAll[u].ToString() != ">"){
-                    DialogCharTemp += DialogAll[u].ToString();
-                    u++;
-                }
-                DialogChar.text = DialogCharTemp;
-                DialogCharTemp = "";
+    public void ShowDialog(string[] newLines, bool isPerson){
+        dialogLines = newLines;
+        currentLine = 0;
+        CheckIfName();
+        dialogBox.SetActive(true);
+        StartCoroutine(AutoType(dialogLines, currentLine));
+        justStarted = true;
+        nameBox.SetActive(isPerson);
     }
 
-    private void Text(int i){
-        //Editing textbox
-                int u = i;
-                while(DialogAll[u].ToString() != "<"){
-                    DialogTextTemp += DialogAll[u].ToString();
-                    u++;
-                    if(u == DialogAll.Length){
-                        check = 1;
-                        break;
-                    }
-                }
-                nextline = 1;
-                DialogText.text = DialogTextTemp;
-                DialogTextTemp = "";
+    private void CheckIfName(){
+        if (dialogLines[currentLine].StartsWith("n-")){
+            nameText.text = dialogLines[currentLine].Replace("n-", "");
+            currentLine++;
+        }
+    }
+
+    public void StopDialog(){
+        dialogBox.SetActive(false);
+        PlayerController.CanMove = 1.0f;
+    }
+
+    IEnumerator AutoType(string[] newLines, int _currentLine){
+        dialogText.text = "";
+        isCoroutingRunning = true;
+        justStarted = false;
+        foreach (char letter in newLines[_currentLine].ToCharArray()){
+            dialogText.text += letter;
+            yield return new WaitForSeconds(typingSpeed);
+        }
+        isCoroutingRunning = false;
+        justStarted = true;
     }
 }

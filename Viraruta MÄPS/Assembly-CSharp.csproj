@@ -94,6 +94,7 @@
      <Compile Include="Assets\CyberCity\Script\CCFollower.cs" />
      <Compile Include="Assets\CyberCity\PostProcessing\Runtime\Components\GrainComponent.cs" />
      <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
+     <Compile Include="Assets\Bloods Vs Scrips\DialogActivator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
      <Compile Include="Assets\CyberCity\PostProcessing\Runtime\PostProcessingContext.cs" />
      <Compile Include="Assets\CyberCity\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
