@@ -63,31 +63,6 @@ public class PlayerController : MonoBehaviour
       if(Input.GetMouseButtonUp(0))
         theGun.isFiring = false;
 
-      if(Input.GetKeyDown(KeyCode.Space)){
-        X = transform.position.x - cameraRay.GetPoint(rayLength).x;
-        Z = transform.position.z - cameraRay.GetPoint(rayLength).z;
-        if(X > DashDistance){
-          X = DashDistance;
-        }
-        if(X < -DashDistance){
-          X = -DashDistance;
-        }
-        if(X < asda && X > -asda){
-          X = 0f;
-        }
-        if(Z > DashDistance){
-          Z = DashDistance;
-        }
-        if(Z < -DashDistance){
-          Z = -DashDistance;
-        }
-        if(Z < asda && Z > -asda){
-          Z = 0f;
-        }
-
-        transform.position += new Vector3(-X, 0, -Z);
-      }
-
     }
 
     void FixedUpdate ()
