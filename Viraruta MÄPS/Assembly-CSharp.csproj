@@ -145,6 +145,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
      <Compile Include="Assets\CyberCity\PostProcessing\Runtime\Models\DitheringModel.cs" />
+     <Compile Include="Assets\Bloods Vs Scrips\MotionScript.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\CyberCity\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
      <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S Multiply Soft.shader" />
@@ -804,11 +805,17 @@
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>C:/Users/s1900957/Documents/GitHub/Viraruta/Viraruta MÄPS/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+        <HintPath>C:/Users/s1900957/Documents/GitHub/Viraruta/Viraruta MÄPS/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
         <HintPath>C:/Users/s1900957/Documents/GitHub/Viraruta/Viraruta MÄPS/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>C:/Users/s1900957/Documents/GitHub/Viraruta/Viraruta MÄPS/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+        <HintPath>C:/Users/s1900957/Documents/GitHub/Viraruta/Viraruta MÄPS/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
         <HintPath>C:/Users/s1900957/Documents/GitHub/Viraruta/Viraruta MÄPS/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
@@ -818,6 +825,12 @@
     </Reference>
     <Reference Include="Unity.TextMeshPro">
         <HintPath>C:/Users/s1900957/Documents/GitHub/Viraruta/Viraruta MÄPS/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+        <HintPath>C:/Users/s1900957/Documents/GitHub/Viraruta/Viraruta MÄPS/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+        <HintPath>C:/Users/s1900957/Documents/GitHub/Viraruta/Viraruta MÄPS/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>C:/Users/s1900957/Documents/GitHub/Viraruta/Viraruta MÄPS/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>

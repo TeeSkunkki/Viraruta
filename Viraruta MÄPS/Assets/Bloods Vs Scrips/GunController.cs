@@ -13,7 +13,8 @@ public class GunController : MonoBehaviour{
     public float bulletSpeed;
 
     public float fireRate;
-    public float shotCounter;
+    private float shotCounter;
+    public float gunBloom;
 
     public Transform firePoint;
 
@@ -21,6 +22,7 @@ public class GunController : MonoBehaviour{
     // Start is called before the first frame update
     void Start(){
       mAudioSrc = GetComponent<AudioSource>();
+       
 
     }
 
@@ -33,19 +35,23 @@ public class GunController : MonoBehaviour{
         if(shotCounter <= 0){
           shotCounter = fireRate;
           BulletController newBullet = Instantiate(bullet, firePoint.position, firePoint.rotation) as BulletController;
+          newBullet.maxBloom = Mathf.Clamp(gunBloom, 0.0f, 10.0f);
           newBullet.speed = bulletSpeed;
-          mAudioSrc.Play();
-
+          //mAudioSrc.Play();
+          gunBloom++;
+          
         }
 
       } else {
-        
         shotCounter -= Time.deltaTime;
         if(shotCounter <= 0){
         shotCounter = 0;
       }
       }
-
-
+      if(gunBloom > 0.0f){
+        gunBloom -= Time.deltaTime * 2;
+      }else{
+        gunBloom = 0.0f;
+      }
     }
 }
