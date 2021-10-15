@@ -7,6 +7,7 @@ public class ObjectiveManager : MonoBehaviour
 {
     public TextMeshProUGUI Objective;
     public string ActualObjective = "KILL THEM ALL";
+    public float TimeToWait;
     private string TempObjective1 = "";
     private string TempObjective2 = "";
     private string ScrambleList = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!#¤%&/()=?@£$€{[]} ";
@@ -27,7 +28,7 @@ public class ObjectiveManager : MonoBehaviour
     }
 
         IEnumerator ObjectiveScramble(){
-            yield return new WaitForSeconds(5);
+            yield return new WaitForSeconds(TimeToWait);
             Scrambling();
         }
 

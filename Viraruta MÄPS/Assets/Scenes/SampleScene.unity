@@ -1397,6 +1397,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Objective: {fileID: 1557451221}
   ActualObjective: I WANT TO DIE
+  TimeToWait: 1
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
