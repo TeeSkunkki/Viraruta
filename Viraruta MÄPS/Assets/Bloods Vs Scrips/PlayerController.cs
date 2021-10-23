@@ -103,4 +103,10 @@ public class PlayerController : MonoBehaviour
         this.gameObject.SetActive(false);
       }
     }
+
+    //Animaatio shitit
+    //float velocityZ = Vector3.Dot(movement.normalized, transform.normalized, transform.forward);
+   // float velocityX = Vector3.Dot(movement.normalized, transform.normalized, transform.right);
+
+
 }
